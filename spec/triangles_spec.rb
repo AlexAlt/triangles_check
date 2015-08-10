@@ -32,7 +32,7 @@ describe (Triangles) do
   end
 
   describe("#triangle?") do
-    it("return false if it is not triangle") do
+    it("return false if it is Not a triangle") do
         test_triangle = Triangles.new(6, 6, 13)
         expect(test_triangle.triangle?()).to(eq(false))
     end
