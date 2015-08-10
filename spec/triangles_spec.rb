@@ -11,6 +11,7 @@ describe (Triangles) do
   describe("#equilateral?") do
     it("return true if the triangle is equilateral") do
       test_triangle = Triangles.new(9, 9, 9)
-      expect(test_triangle.equilateral?()).(eq(true))
+      expect(test_triangle.equilateral?()).to(eq(true))
+    end
   end
 end
