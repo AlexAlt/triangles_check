@@ -1,0 +1,13 @@
+<h5> Side One: <%= @side_one %></h5>
+<h5> Side Two: <%= @side_two %></h5>
+<h5> Side Three: <%= @side_three %></h5>
+
+<% if @triangles.triangle?() && @triangles.equilateral?() %>
+  <h5> It is an equilateral triangle!</h5>
+<% elsif  @triangles.triangle?() && @triangles.isosceles?() %>
+  <h5> It is an isosceles triangle! </h5>
+<% elsif  @triangles.triangle?() && @triangles.scalene?() %>
+  <h5> It is an scalene triangle! </h5>
+ <% else %>
+  <h5> It is not a triangle :( !</h5>
+<% end %>
