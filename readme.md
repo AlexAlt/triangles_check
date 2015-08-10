@@ -19,9 +19,9 @@ User inputs the sides if a triangle and it displays if it is a triangle and what
 
 ### Technologies Used
 
--Ruby
--Sinatra
--bootsrap/google fonts/font awesome
+- Ruby
+- Sinatra
+- bootsrap/google fonts/font awesome
 
 ### Legal
 
